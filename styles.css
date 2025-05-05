@@ -3,6 +3,7 @@
   margin:0;
   padding:0;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 body{
   height:100vh; 
@@ -14,14 +15,12 @@ body{
   align-items: center;
   background-color: rgba(0, 0, 0, 0.767);
 }
-
 h1{
   color: white;
-  font-size: 2rem;
-  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
   text-align: center;
 }
-
 #calculator{
   padding:30px;
   box-shadow:0 0 15px #000;
@@ -43,8 +42,8 @@ h1{
   cursor: pointer;
 }
 button{
-  width: 70px;
-  height:40px;
+  width: 77px;
+  height:55px;
   margin: 8px;
   background: transparent;
   color: #fff;
@@ -62,40 +61,41 @@ button:active{
   background:#000;
   translate:(2px,2px)
 }
-
 .opr{
   color:aqua;
   background: color #1e191e; 
   font-weight: 700px;
+  font-size: 20px;
 }
 #equel{
   background-color: orangered;
   font-family:900 ;
-}   
+}  
 
-
-
-@media (max-width: 500px) {
-  #calculator {
-    padding: 20px;
-    width: 90%;
+@media (max-width: 768px) {
+  h1{
+    font-size: 1.5rem;
   }
-
+  #calculator {
+    padding: 10px;
+    font-size: 2rem;
+    width: 80%;
+    max-width: 300px;
+    margin-bottom: 310px;
+  }
   .display input {
-    width: 100%;
-    font-size: 24px;
+    width: 75%;
+    font-size: 20px;
     padding: 10px;
   }
-
   button {
-    width: 60px;
-    height: 40px;
-    font-size: 18px;
+    width: 50px;
+    height: 45px;
+    font-size: 15px;
     margin: 6px;
   }
-
-  h1 {
-    font-size: 1.5rem;
+  .opr{
+    font-size: 15px;
   }
 }
 

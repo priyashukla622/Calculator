@@ -17,7 +17,7 @@ body{
 }
 h1{
   color: white;
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -31,7 +31,7 @@ h1{
 }
 .display input{
   width: 250px;
-  padding:12px;
+  padding:1px;
   margin: 10px 0;
   background-color: transparent;
   border: none;
@@ -42,8 +42,8 @@ h1{
   cursor: pointer;
 }
 button{
-  width: 77px;
-  height:55px;
+  width: 60px;
+  height:45px;
   margin: 8px;
   background: transparent;
   color: #fff;
@@ -65,7 +65,7 @@ button:active{
   color:aqua;
   background: color #1e191e; 
   font-weight: 700px;
-  font-size: 20px;
+  font-size: 17px;
 }
 #equel{
   background-color: orangered;
@@ -81,7 +81,6 @@ button:active{
     font-size: 2rem;
     width: 80%;
     max-width: 300px;
-    margin-bottom: 310px;
   }
   .display input {
     width: 75%;
@@ -109,6 +108,4 @@ button:active{
 
 
 
-
-
-
+ 
